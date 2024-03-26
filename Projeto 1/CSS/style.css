@@ -1,0 +1,113 @@
+* {
+    /*define a página principal, sem margem, paddind e estilo*/
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    /*define as características do body da página*/
+    width: 100%;
+    color: rgb(4, 46, 66);
+    text-align: center;
+    min-height: 100vh;
+    /*define a altura da página em 100% da altura em pixel diponivel*/
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    /*centraliza o conteúdo do body*/
+    align-items: center;
+    /*centraliza os itens inseridos no body*/
+}
+
+.conteiner {
+    /*define o conteúdo do bloco div "container"*/
+    width: 50%;
+    height: 90vh;
+    /*define a altura da página em 90% da altura em pixel diponivel*/
+    padding: 2%;
+}
+
+.nome {
+    /*define o conteúdo do bloco div "nome"*/
+    border-top: medium groove rgb(4, 46, 66);
+    /*cria uma borda superior do bloco div "nome", e defice as características dessa borda*/
+    text-align: center;
+    /*define a posição do texto no bloco*/
+}
+
+.avatar {
+    /*define as características do bloco div "avatar" que contem a imagem do perfil*/
+    border-radius: 100%;
+    /*cria um limite para a imagem, numa forma circular*/
+    max-width: 200px;
+    /*define a largura da imagem*/
+    border: 1px solid rgb(4, 46, 66);
+    /*cria uma borda envolta da imagem*/
+}
+
+.perfil {
+    border-top: medium groove rgb(4, 46, 66);
+    text-align: center;
+}
+
+.perfil1 {
+    text-align: justify;
+}
+
+.competencia {
+    border-top: medium groove rgb(4, 46, 66);
+    text-align: center;
+}
+
+.competencia1 {
+    text-align: justify;
+}
+
+.formacao {
+    border-top: medium groove rgb(4, 46, 66);
+    text-align: center;
+}
+
+.formacao1 {
+    text-align: justify;
+}
+
+.experiencia {
+    border-top: medium groove rgb(4, 46, 66);
+    text-align: center;
+}
+
+.experiencia1 {
+    text-align: justify;
+}
+
+.contato {
+    border-top: medium groove rgb(4, 46, 66);
+    text-align: center;
+}
+
+.contato1 {
+    text-align: left;
+}
+
+.redes {
+    border-top: medium groove rgb(4, 46, 66);
+    text-align: center;
+}
+
+.redes1 {
+    text-align: center;
+
+
+}
+
+.final {
+    border-top: medium groove rgb(4, 46, 66);
+    text-align: center;
+}
+
+/*Algumas configurações foram  retiradas e adapitadas de Video aulas do YouTube*/
+/*link1: https://youtube.com/watch?v=PABA-4wsF1I&si=CaTDAuzj1YKPCiat */
+/*link2: https://youtu.be/yuScFnYn_bA?si=wDRaJvMloF5IDAes */
